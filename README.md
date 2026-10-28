@@ -62,7 +62,7 @@ git push -u origin gh-pages --force
 git checkout main
 ```
 
-4. The site will be available at `https://joshualparris.github.io/JoshNFCAudio/` (may take a minute).
+4. The site will be available at `https://parris-tech-services.github.io/JoshNFCAudio/` (may take a minute).
 
 Notes about Web NFC and testing
 --------------------------------
@@ -70,7 +70,7 @@ Notes about Web NFC and testing
 -- Use the in-app "Write to Card" flow to write a URL record that links back to the app by default. The app writes a URL of the form:
 
 ```
-https://joshualparris.github.io/JoshNFCAudio/?card=<card-id>
+https://parris-tech-services.github.io/JoshNFCAudio/?card=<card-id>
 ```
 
 When a user taps the card on iPhone or Android, the phone opens that URL in the browser. The page will load the matching card from IndexedDB and show a large Play button so the user can start playback with a single tap. If the card isn't present on that phone, the app shows a message explaining how to import tracks.
